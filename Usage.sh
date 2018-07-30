@@ -7,7 +7,6 @@ for i in `awk '{if ($1 >=85) print $2,"  ",$1"%"}' vs.tmp`;
 do
                         if [ ! -z "$i" ] ; then
                 echo "Volume high Usage *** $i \n"
-#                printf "Not OK\n"
         fi
 
 done
